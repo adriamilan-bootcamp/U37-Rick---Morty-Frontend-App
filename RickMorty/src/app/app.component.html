@@ -1,0 +1,30 @@
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid px-5">
+    <a class="navbar-brand" routerLink="home">Rick & Morty</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#rm-nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="rm-nav">
+      <ul class="navbar-nav ms-auto mx-5">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="characters">Characters</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="about">About</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-success btn-green" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div>
+  <router-outlet></router-outlet>
+</div>
