@@ -1,0 +1,22 @@
+<div class="modal" [attr.id]="'modal' + character  .id">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">{{character.name}}</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <img src="{{ character.image }}">
+          <hr>
+          <p>Identifier: {{character.id}}</p>
+          <p>Status: {{character.status}}</p>
+          <p>Specie: {{character.species}}</p>
+          <p>Gender: {{character.gender}}</p>
+          <p>Origin: {{character.origin.name}}</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
