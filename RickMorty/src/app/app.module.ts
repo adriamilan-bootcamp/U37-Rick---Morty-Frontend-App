@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { CharacterComponent } from './character/character.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { CharacterInfoComponent } from './character-info/character-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CharacterComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    CharacterInfoComponent
   ],
   imports: [
     BrowserModule,

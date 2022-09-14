@@ -6,7 +6,10 @@
                 <div class="card-body">
                   <h5 class="card-title">{{ char.name }}</h5>
                   <div class="d-grid gap-2">
-                    <button class="btn btn-warning" type="button">See more</button>
+                    <button type="button" class="btn btn-warning" data-bs-toggle="modal" [attr.data-bs-target]="'#modal' + char.id">
+                      See more
+                    </button>
+                    <app-character-info [character]="char"></app-character-info>
                   </div>
                 </div>
               </div>
@@ -18,3 +21,6 @@
           </div>
     </ng-template>
 </div>
+
+
+
