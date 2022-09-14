@@ -1,6 +1,6 @@
 # U37-Rick-Morty-Frontend-App
 
-- https://github.com/adriamilan-bootcamp/UD37-Rick-Morty-Frontend-App
+- https://main.d2lcv3owc55xb6.amplifyapp.com/
 
 ![image](https://user-images.githubusercontent.com/108835310/189874491-bc40505b-02e8-44ac-a8d8-87554cca231f.png)
 
